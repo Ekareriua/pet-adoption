@@ -5,6 +5,10 @@ body, html {
   overflow-x: hidden;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Source Sans 3", sans-serif;
 }
@@ -17,6 +21,7 @@ body {
 }
 
 .top-section {
+  position: relative;
   color: white;
   padding-top: 80px;
   padding-bottom: 80px;
